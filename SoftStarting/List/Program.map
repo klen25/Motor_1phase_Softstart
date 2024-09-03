@@ -1,0 +1,51 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+sensitivity                                                       0x029D       4
+millis_value                                                      0x02A1       4
+Kp                                                                0x02A5       4
+Ki                                                                0x02A9       4
+lastmillis_value                                                  0x02AD       4
+lastDebounceTime                                                  0x02B1       4
+arus1                                                             0x02B5       4
+vout1                                                             0x02B9       4
+adc1                                                              0x02BD       2
+count                                                             0x02BF       2
+dataMin                                                           0x02C1       2
+dataMax                                                           0x02C3       2
+prev_res                                                          0x02C5       2
+prev_err_1                                                        0x02C7       2
+prev_err_2                                                        0x02C9       2
+total_err                                                         0x02CB       2
+buttonstate                                                       0x02CD       2
+lastbuttonstate                                                   0x02CF       2
+pos                                                               0x02D1       2
+blink                                                             0x02D3       1
+koma                                                              0x02D4       1
+savedkey                                                          0x02D5       1
+data                                                              0x02D6      16
+millis_cek                                                        0x02E6       4
+Kp_Temp                                                           0x02EA       1
+Ki_Temp                                                           0x02EB       1
+Arus_Temp                                                         0x02EC       5
+_base_y                                                           0x02F1       4
+_lcd_x                                                            0x02F5       1
+_lcd_y                                                            0x02F6       1
+_lcd_maxx                                                         0x02F7       1
+_seed                                                             0x02F8       4
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+zero                                                              R4,R5        2
+temp                                                              R7           1
+keyupdate                                                         R6           1
+lastkeyupdate                                                     R9           1
+tekan                                                             R8           1
+Arus                                                              R10,R11      2
+countpwm                                                          R13          1
+pressed                                                           R12          1
